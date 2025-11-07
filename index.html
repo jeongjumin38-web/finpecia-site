@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="canonical" href="https://example.com/">
 <link rel="stylesheet" href="/assets/style.css">
+<!-- 성능: 히어로 이미지 프리로드 -->
 <link rel="preload" as="image" href="/assets/img/hero.webp" imagesrcset="/assets/img/hero.webp" imagesizes="100vw">
 <meta property="og:type" content="website">
 <meta property="og:title" content="핀페시아 정보 허브">
@@ -24,6 +25,7 @@
   </nav>
 </div></div>
 
+<!-- 히어로: CSS 변수로 배경 이미지 적용 -->
 <section class="hero" style="--hero: url('/assets/img/hero.webp')">
   <div class="media" aria-hidden="true"></div>
   <div class="wrap">
@@ -46,6 +48,7 @@
     <a class="card" href="/faq/"><h3>FAQ</h3><p>배송, 중단 시 변화, 보관·유통기한.</p></a>
   </div>
 
+  <!-- 이미지 갤러리(가벼운 3장) -->
   <h2 class="reveal">한눈에 보는 핀페시아 가이드</h2>
   <div class="grid reveal">
     <div class="card imgcard">
@@ -82,6 +85,7 @@
   <div><a href="/robots.txt">robots.txt</a> · <a href="/sitemap.xml">sitemap.xml</a></div>
 </div></footer>
 
+<!-- 아주 가벼운 스크롤-인 효과 -->
 <script>
   const io=new IntersectionObserver(es=>es.forEach(e=>{
     if(e.isIntersecting){e.target.classList.add('show'); io.unobserve(e.target);}
