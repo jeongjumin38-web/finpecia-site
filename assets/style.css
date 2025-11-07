@@ -1,0 +1,9 @@
+/* /assets/style.css (아주 기본) */
+body{font-family:system-ui,-apple-system,'Noto Sans KR',sans-serif;margin:0;color:#333;line-height:1.7}
+header{background:#004AAD;color:#fff;padding:16px 24px;display:flex;justify-content:space-between;align-items:center}
+header h1{margin:0;font-size:18px}
+header a{color:#fff;text-decoration:none;margin-left:16px}
+main{max-width:1000px;margin:auto;padding:40px 16px}
+.hero{background:linear-gradient(to bottom right,#f4f8ff,#e9f2ff);padding:72px 16px;text-align:center}
+.cta{display:inline-block;background:#004AAD;color:#fff;padding:10px 20px;border-radius:6px;text-decoration:none}
+footer{background:#111;color:#ccc;text-align:center;padding:24px 10px;margin-top:40px;font-size:13px}
