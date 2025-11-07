@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>핀페시아 정보 허브</title>
+  <link>https://finpecia-site.com/</link>
+  <description>핀페시아 정품 확인, 구매·통관, 복용, 부작용 가이드</description>
+  <language>ko</language>
+  <lastBuildDate>Sat, 08 Nov 2025 01:31:09 +0900</lastBuildDate>
+
+  <item>
+    <title>홈</title>
+    <link>https://finpecia-site.com/</link>
+    <guid isPermaLink="true">https://finpecia-site.com/</guid>
+    <pubDate>Sat, 08 Nov 2025 01:31:09 +0900</pubDate>
+    <description>핵심 바로가기와 면책 안내</description>
+  </item>
+
+  <item>
+    <title>핀페시아 정보(개요)</title>
+    <link>https://finpecia-site.com/info/</link>
+    <guid isPermaLink="true">https://finpecia-site.com/info/</guid>
+    <pubDate>Sat, 08 Nov 2025 01:31:09 +0900</pubDate>
+    <description>성분·복용 개요·주의사항 요약</description>
+  </item>
+
+  <item>
+    <title>부작용/안전</title>
+    <link>https://finpecia-site.com/info/side-effects.html</link>
+    <guid isPermaLink="true">https://finpecia-site.com/info/side-effects.html</guid>
+    <pubDate>Sat, 08 Nov 2025 01:31:09 +0900</pubDate>
+    <description>즉시 진료 신호 및 일반 보고 사례</description>
+  </item>
+
+  <item>
+    <title>효능(개요)</title>
+    <link>https://finpecia-site.com/info/efficacy.html</link>
+    <guid isPermaLink="true">https://finpecia-site.com/info/efficacy.html</guid>
+    <pubDate>Sat, 08 Nov 2025 01:31:09 +0900</pubDate>
+    <description>남성형 탈모 진행 억제에 관한 일반적 효능</description>
+  </item>
+
+  <item>
+    <title>복용 방법(개요)</title>
+    <link>https://finpecia-site.com/info/dosage.html</link>
+    <guid isPermaLink="true">https://finpecia-site.com/info/dosage.html</guid>
+    <pubDate>Sat, 08 Nov 2025 01:31:09 +0900</pubDate>
+    <description>1일 1회 1정, 동일 시간대 권장</description>
+  </item>
+
+  <item>
+    <title>구매·통관 가이드</title>
+    <link>https://finpecia-site.com/buy/</link>
+    <guid isPermaLink="true">https://finpecia-site.com/buy/</guid>
+    <pubDate>Sat, 08 Nov 2025 01:31:09 +0900</pubDate>
+    <description>합법성 체크리스트와 구매대행처 이동</description>
+  </item>
+
+  <item>
+    <title>배송/통관 팁</title>
+    <link>https://finpecia-site.com/buy/shipping.html</link>
+    <guid isPermaLink="true">https://finpecia-site.com/buy/shipping.html</guid>
+    <pubDate>Sat, 08 Nov 2025 01:31:09 +0900</pubDate>
+    <description>트래킹 및 통관 단계 확인 요령</description>
+  </item>
+
+  <item>
+    <title>보관 방법</title>
+    <link>https://finpecia-site.com/buy/storage.html</link>
+    <guid isPermaLink="true">https://finpecia-site.com/buy/storage.html</guid>
+    <pubDate>Sat, 08 Nov 2025 01:31:09 +0900</pubDate>
+    <description>건조한 상온 보관, 직사광선 피하기</description>
+  </item>
+
+  <item>
+    <title>가격·비용 고려</title>
+    <link>https://finpecia-site.com/buy/price.html</link>
+    <guid isPermaLink="true">https://finpecia-site.com/buy/price.html</guid>
+    <pubDate>Sat, 08 Nov 2025 01:31:09 +0900</pubDate>
+    <description>환율·배송비·세금 등 총비용 고려</description>
+  </item>
+
+  <item>
+    <title>FAQ</title>
+    <link>https://finpecia-site.com/faq/</link>
+    <guid isPermaLink="true">https://finpecia-site.com/faq/</guid>
+    <pubDate>Sat, 08 Nov 2025 01:31:09 +0900</pubDate>
+    <description>자주 묻는 질문 모음</description>
+  </item>
+
+</channel>
+</rss>
