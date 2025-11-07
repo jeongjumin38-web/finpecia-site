@@ -27,9 +27,12 @@ img{max-width:100%;height:auto;display:block}
   border-bottom:1px solid var(--line); position:relative; overflow:hidden;
 }
 .hero .media{
-  position:absolute; inset:0; pointer-events:none; opacity:.2; mix-blend:normal;
+  position:absolute; inset:0; pointer-events:none; opacity:.22; /* 살짝 진하게 */
+  mix-blend:normal;
   background: center/cover no-repeat var(--hero, none);
-  transform:scale(1.02);
+  transform:none;                  /* ← 스케일링 제거: 블러 방지 핵심 */
+  image-rendering:auto;            /* (보정용, 배경에는 큰 차이 없지만 무해) */
+  backface-visibility:hidden;      /* 일부 브라우저 렌더링 안정화 */
 }
 /* 데스크탑: 원본 대비 +20% (92/72 → 110/86) */
 .hero>.wrap{
