@@ -31,9 +31,9 @@ img{max-width:100%;height:auto;display:block}
   background: center/cover no-repeat var(--hero, none);
   transform:scale(1.02);
 }
-/* ▼ 세로 크기 +35% 확대 적용 */
+/* 데스크탑: 원본 대비 +20% (92/72 → 110/86) */
 .hero>.wrap{
-  padding:124px 16px 98px;  /* 기존 92 / 72 → 124 / 98 */
+  padding:110px 16px 86px;
   text-align:center;
   position:relative;
 }
@@ -59,41 +59,4 @@ h2{font-size:20px;margin:22px 0 10px;color:#0d3ea9}
   border:1px solid transparent;border-radius:var(--rad);padding:18px;box-shadow:var(--shadow);
   transition:transform .15s ease, box-shadow .15s ease
 }
-.card:hover{transform:translateY(-3px);box-shadow:0 16px 40px rgba(0,0,0,.08)}
-.card h3{margin:0 0 8px;color:#0d3ea9;font-size:18px}
-
-/* 이미지 카드(메인 갤러리) */
-.imgcard{display:grid;grid-template-rows:auto 1fr;gap:12px}
-.imgcard picture,.imgcard img{border-radius:14px;overflow:hidden}
-.imgcap{font-size:14px;color:#4b5563}
-
-/* 배지/노티스 */
-.badge{display:inline-block;border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 10px;margin:2px 6px 0 0;font-size:12px;color:#0d3ea9}
-.notice{background:var(--warn);border:1px solid var(--warn-line);border-radius:12px;padding:12px;margin:16px 0;color:#5a4700}
-
-/* 빌보드(섹션 callout) */
-.billboard{
-  margin:32px 0;padding:22px;border-radius:18px;display:grid;gap:12px;
-  background:linear-gradient(135deg,#f0f6ff,#ffffff);
-  border:1px solid var(--line);
-}
-
-/* 빵부스러기 & 푸터 */
-.breadcrumb{font-size:13px;color:#577;margin:10px 0 0}.breadcrumb a{color:#577}
-footer{border-top:1px solid var(--line);background:#0b1226;color:#cbd3ff;margin-top:40px}
-.footer{padding:26px 0;font-size:13px}
-.footer a{color:#9db4ff}
-
-/* 스크롤 인 애니메이션 */
-.reveal{opacity:0;transform:translateY(10px);transition:opacity .4s ease, transform .4s ease}
-.reveal.show{opacity:1;transform:none}
-
-/* 반응형 */
-@media (max-width: 640px){
-  .header{flex-direction:column; align-items:flex-start}
-  .nav{gap:8px}
-  .nav a{padding:8px 6px; font-size:14px}
-  /* ▼ 모바일도 +35% 확대 적용 */
-  .hero>.wrap{padding:98px 16px 76px}  /* 기존 72 / 56 → 98 / 76 */
-  .hero h1{font-size:28px}
-}
+.card:hover{transform:translateY(-3px);box-shadow:0 16px 40px rgba(0,0,
